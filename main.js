@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
         
         if (position >= maxPosition){
             clearInterval(intervalId);
-            console.log("Анімація завершена.");
         }
+        
     },100);
 }) ;
