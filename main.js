@@ -13,7 +13,7 @@ const intervalId = setInterval(()=> {
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    const box = document.querySelector(".animated-box");
+    const box = document.querySelector(".box");
     let position = 0;
     let size = 50 ;
     const maxPosition = window.innerWidth - 50;
